@@ -14,7 +14,6 @@ function jeu(element, egalite, loose, win){
         play++;
         if ( ordi[rdm] === egalite){
             resultat.innerHTML = "Egalité";
-            ;
         }
         if(ordi[rdm] === loose){
             resultat.innerHTML = "Perdu";
@@ -26,7 +25,6 @@ function jeu(element, egalite, loose, win){
         }
         count.innerHTML = "Victoire = " + x + "  Défaite = " + y;
     })
-
 }
 
 jeu(rock, rock, paper, scissors);
