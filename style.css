@@ -11,3 +11,16 @@ button{
     border-radius: 10%;
     border-color: orange;
 }
+
+h1{
+    font-family: cursive, sans-serif;
+}
+
+h2{
+    font-family: cursive, sans-serif;
+    color: orange ;
+}
+
+body{
+    background-color: aliceblue;
+}

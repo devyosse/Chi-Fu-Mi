@@ -8,11 +8,11 @@ const ordi = [
     rock ,paper ,scissors
 ];
 
-function jeu(element, egalite, loose, win){
+function jeu(element, draw, loose, win){
     element.addEventListener('click', function (){
-        let rdm = Math.floor(Math.random()*ordi.length);
+        let rdm = Math.floor(Math.random() * ordi.length);
         play++;
-        if ( ordi[rdm] === egalite){
+        if ( ordi[rdm] === draw){
             resultat.innerHTML = "Egalité";
         }
         if(ordi[rdm] === loose){
